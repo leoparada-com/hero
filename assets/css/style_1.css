@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+img {width:100%; float:left;}
+
+form{border: 0px solid green; width:600px; margin:auto; padding:30px; margin:auto; background-color:#4474AF; color:white; font-weight:bold;border-radius: 15px;}
+body{font-size:2em; padding:0px; margin: 0px; border: 0px solid red; font-family:arial; background-color:#B5D4FA;
+
+}
+#nombre_pokemon{text-align:center}
+
+/* =============================================== main container ================================================================*/
+
+.main_container{
+border: 0px solid blue;
+padding:2% 2%;
+overflow:hidden;
+float:left;
+width:100%;
+}
+
+
+
+/* ============================================== container 1 =================================================*/
+.container_1 {border: 5px solid #4474AF; width:100%; background-color:white; padding: 1% 1%; float:left;
+
+box-shadow: -16px -4px 91px 7px rgba(0,0,0,0.42);
+-webkit-box-shadow: -16px -4px 91px 7px rgba(0,0,0,0.42);
+-moz-box-shadow: -16px -4px 91px 7px rgba(0,0,0,0.42);
+
+}
+
+/* ================================================================================================================*/
+
+button {height:100px; width:100%; }
+
+#imagen_pokemon{border: 0px solid #B0E0E6; width:100%; float:left; border-style:dashed; margin-right:100px; background-color:white;
+over-float:hidden;
+}
+
+
+
+h1 {/*color:#7EA6D6;*/
+color:white;
+text-shadow: black 0.1em 0.1em 0.2em;
+text-align:center;
+font-family: 'Russo One', sans-serif;
+}
+
+h2 {color: red;}
+
+.des{color:green; font-style: italic; font-size:1em;}
+
+li {font-size:0.4em;}
+
+/* =============================================== card ================================================================*/
+
+.card{ border: 0px solid #B0E0E6; float:left; width:55%; min-height:450px;
+
+}
+input{width:100%}
+
+
+/* ================================================  GRAFICA DE PIE  ============= */
+#chartContainer {height: 370px; width: 500px; float:left; border: 0px solid #B0E0E6; over-float:hidden;}  
+
+/* ================================================  EFECTO FADE-IN IMAGEN ============= */
+.fade-in-image {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* =============================================== EFECTO BLINK============= */
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ======================================  video ==================================== */
+
+
+#myVideo {
+opacity:0.8;
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-1;
+  
+/* ================================================================================= */
+}
+
+
